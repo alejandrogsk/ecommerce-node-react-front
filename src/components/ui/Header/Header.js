@@ -103,7 +103,7 @@ const useStyles = makeStyles({
 const navLinks = [
   { title: `home`, path: `/` },
   { title: `watches`, path: `/category/watches` },
-  { title: `handbags`, path: `/category/handbag` },
+  { title: `handbags`, path: `/category/handbags` },
   { title: `sunglasses`, path: `/category/sunglasses` },
 ];
 
