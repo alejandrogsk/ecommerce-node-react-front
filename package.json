@@ -1,6 +1,6 @@
 {
   "homepage": "https://alejandrogsk.github.io/ecommerce-node-react-front",
-  "name": "ecommerce-front",
+  "name": "ecommerce-node-react-front",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
