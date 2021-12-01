@@ -61,7 +61,7 @@ export const startRegister = ( email, password, name ) => {
 }
 
 export const startChecking = () => {
-    return async(dispatch) => {
+    return async( dispatch ) => {
         const url = `${ process.env.REACT_APP_BACKEND_API }/auth/profile`;
         const token = localStorage.getItem('token') || '';
 
