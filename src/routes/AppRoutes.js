@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 
 //React Router
-import { HashRouter as Router, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Redirect } from "react-router-dom";
 
 //Redux
 import { useDispatch, useSelector } from "react-redux";
