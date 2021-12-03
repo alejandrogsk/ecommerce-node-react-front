@@ -32,7 +32,6 @@ export default function HandBagSection() {
   const classes = useStyles();
   const {data, loading, error} = useGetAxios(`${process.env.REACT_APP_BACKEND_API}/products/handbags`)
   
-  console.log('en que entorno estoy?',process.env.NODE_ENV, process.env.REACT_APP_BACKEND_API)
 
   return (
     <div className={classes.root}>
